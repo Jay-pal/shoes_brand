@@ -1,0 +1,194 @@
+
+*{
+	margin: 0;padding: 0; box-sizing: border-box;
+	font-family: 'josefin sans',sans-serif;
+}
+
+nav{
+	width:100% ;height:15vh;
+	background: rgba(0,0,0,0.2);
+	color: white; display: flex; justify-content: space-between;
+	align-items:center; text-transform: uppercase;
+	box-shadow: currentColor;
+}
+nav .logo{
+	width: 25%; text-align: center;
+	/*background:red;*/
+}
+nav .menu{
+	width: 40%; 
+
+	
+    display: flex;justify-content: space-around; 
+}
+nav .menu a{
+	width: 25%;
+	text-decoration: none;color: blue;
+	font-weight: bold;
+
+}
+nav .menu a:first-child{
+
+	color:#00b894; 
+
+}
+
+ main{
+	 
+	width: 100%;height: 100vh;
+	background-image: url('../image/Addidas2.jpg');
+	width: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border:3px solid red;
+}
+section h3{
+	font-size: 35px; font-weight: 200;letter-spacing: 3px;
+	text-shadow: 1px 1px 2px red;
+}
+
+section h1{
+	margin: 30px 0 20px 0;
+	font-size: 55px;
+	font-weight: 700;
+	text-shadow: 2px 1px 5px red;
+	text-transform: uppercase;
+
+}
+
+section p{
+	font-family: 25px;
+	word-spacing:2px ;
+	margin-bottom: 25px;
+	text-shadow:1px 1px 1px white;
+}
+
+section a{
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase; ;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration:none; 
+	letter-spacing: 1px;
+	transition: all .5s ease;
+
+}
+
+section .button{
+	   /*background:#00b894;*/
+	   background:#fff;
+	   color: #000;
+}
+.button:hover{
+	background:#00b894;
+         color: white
+}
+
+section .btntwo{
+         background:#00b894;
+         color: white;
+}
+.btntwo:hover{
+	background:#fff;
+	   color: #000;
+}
+.change_content:after{
+	content:'';
+	animation: changetext 10s infinite linear;
+	color: #00b894;
+
+}
+
+@keyframes changetext{
+	1%{content:"NIKE";}
+	20%{content:"Adidas";}
+	30%{content:"Skechers";}
+	60%{content:"Jorden";}
+	80%{content:"Party-shoes";}
+	100%{content:"Red-chief";}
+}
+
+
+.animate{
+	margin: 0;
+	padding: 50px;
+    background: linear-gradient(45deg,#1affff,#4f58ff);
+    font-family: 'Gill Sans','Gill Sans MT',calibri,'Trebuchet',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border:solid black;
+    
+}
+.box div{
+	padding: 20px;
+	border:5px solid black;
+	margin:40px;
+	outline: solid;
+	color:#008080;
+	position: relative;
+
+}
+.box div input{
+	width:220px;
+	height:25px;
+	margin: 5px 0;
+	
+	border-bottom:3px solid black;
+	outline:none; 
+	position: relative;
+
+}
+
+.adidas{
+	background:lightblue;
+    color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue red blue red;
+
+    
+}
+.adidas1{
+	background-color: red;
+	border:3px solid black;
+	
+
+}
+.nextpage{
+	 background-color:lime; 
+	border:3px solid black 100%;
+}
+
+.nike{
+	background:lime;
+    color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+
+    
+}
+.nike1{
+	background-color: green;
+	border:3px solid black;
+	
+
+}
+
+.other{
+      background:lime;
+    color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+.other1{
+      background-color: green;
+	border:3px solid black;
+}
